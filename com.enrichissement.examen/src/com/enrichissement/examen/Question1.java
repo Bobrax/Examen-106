@@ -17,10 +17,10 @@ public class Question1 {
         {
         	tabSource[i] = random.nextInt(101);
         }
-        calculTableDestination(tabSource, tabDestination);
+        calculerTableDestination(tabSource, tabDestination);
     }
     
-    public static void calculTableDestination(int[] tabSource, int[] tabDestination)
+    public static void calculerTableDestination(int[] tabSource, int[] tabDestination)
     {
     	for(int i = 0; i < tabSource.length; i++)
     	{
